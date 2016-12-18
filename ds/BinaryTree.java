@@ -94,6 +94,9 @@ public class BinaryTree<Item> implements Serializable {
         }
     }
 
+    /**
+     * Build a tree using a preorder Traversal
+     */
     public BinaryTree<String> readBinaryTree(Scanner scanner) {
         String item = scanner.nextLine().trim();
         if (item.toUpperCase().equals("NULL")) {

@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 import ds.BinaryTree;
+import ds.HuffmanTree;
 
 public class Tester {
 
@@ -11,6 +12,9 @@ public class Tester {
             BinaryTree<String> mVPBinaryTree = new BinaryTree<>();
             mVPBinaryTree = mVPBinaryTree.readBinaryTree(scanner);
             printWriter.println(mVPBinaryTree.toString());
+            // TODO: 
+            HuffmanTree mVPHuffmanTree = null;
+            printWriter.println(mVPHuffmanTree);
         }
     }
 

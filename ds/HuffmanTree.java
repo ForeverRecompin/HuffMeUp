@@ -3,8 +3,6 @@ package ds;
 import java.io.*;
 import java.util.*;
 
-import ds.BinaryTree;
-
 public class HuffmanTree implements Serializable {
 
     private BinaryTree<HuffmanNode> huffmanTree;
